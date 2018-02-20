@@ -7,6 +7,7 @@ add_library(roman-decoder-lib STATIC
 add_library(roman::decoder-lib ALIAS roman-decoder-lib)
 
 target_link_libraries(roman-decoder-lib
+    PRIVATE
     roman::validator-lib
 )
 
