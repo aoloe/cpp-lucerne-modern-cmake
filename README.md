@@ -6,7 +6,7 @@ An example C++ project for the Modern CMake workshop of the [C++ Usergroup Zentr
 ## Steps
 
 1. start by adding `validator` to the the projectadd 
-2. add the tests (tests directory + catch)
+2. add the tests for the validator (tests directory + catch)
 
 ## Visual Studio
 

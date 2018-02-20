@@ -12,7 +12,7 @@ target_include_directories(roman-validator-lib
     PRIVATE
         include/roman_validator
     INTERFACE
-        $<BUILD_INTERFACE:${CAMKE_CURRENT_SOURCE_DIR}/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
 
@@ -25,7 +25,7 @@ if (NOT ${MVSC})
         -Werror
         $<$<BOOL:$(CMAKE_COMPILER_IS_CLANGCXX)>:~Weverything>
     )
-endif (NOT ${MSVC})
+endif (NOT ${MVSC})
 
 target_compile_options(roman-validator-lib
     PUBLIC
