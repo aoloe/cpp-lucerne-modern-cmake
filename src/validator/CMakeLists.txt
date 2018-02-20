@@ -24,3 +24,15 @@ if (NOT ${MVSC})
         $<$<BOOL:$(CMAKE_COMPILER_IS_CLANGCXX)>:~Weverything>
     )
 endif (NOT ${MSVC})
+
+target_compile_options(roman-validator-lib
+    PUBLIC
+    $<$<BOOL:${MSVC}>:/Za>
+    PRIVATE
+    $<$<BOOL:${MSVC}>:/analyze;/Wall>
+    )
+
+target_compile_definitions(roman-validator-lib
+    PUBLIC
+    $<$<BOOL:${WIN32}>:WINVER=0x0A00;_WIN32_WINNT=0x0a00>
+)
