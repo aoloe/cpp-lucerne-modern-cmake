@@ -2,3 +2,8 @@ Modern CMake Workshop example project
 =====================================
 
 An example C++ project for the Modern CMake workshop of the [C++ Usergroup Zentralschweiz](http://cpp-ug-luzern.blogspot.ch).
+
+## Steps
+
+1. start by adding `validator` to the the projectadd 
+2. add the tests (tests directory + catch)

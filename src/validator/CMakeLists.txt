@@ -4,6 +4,8 @@ add_library(roman-validator-lib STATIC
    src/roman_numeral_validator.cpp
 )
 
+add_subdirectory(tests)
+
 add_library(roman::validator-lib ALIAS roman-validator-lib)
 
 target_include_directories(roman-validator-lib
