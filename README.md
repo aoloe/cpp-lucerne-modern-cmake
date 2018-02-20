@@ -1,5 +1,4 @@
-Modern CMake Workshop example project
-=====================================
+# Modern CMake Workshop example project
 
 An example C++ project for the Modern CMake workshop of the [C++ Usergroup Zentralschweiz](http://cpp-ug-luzern.blogspot.ch).
 
@@ -7,6 +6,7 @@ An example C++ project for the Modern CMake workshop of the [C++ Usergroup Zentr
 
 1. start by adding `validator` to the the projectadd 
 2. add the tests for the validator (tests directory + catch)
+3. get the decoder to compile
 
 ## Visual Studio
 
