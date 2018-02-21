@@ -5,6 +5,7 @@ An example C++ project for the Modern CMake workshop of the [C++ Usergroup Zentr
 
 ## Notes
 
+- C++ Usergroup Zentralschweiz: [20. Feb. Workshop: Modernes CMake](http://cpp-ug-luzern.blogspot.ch/2018/02/20-feb-workshop-modernes-cmake.html)
 - [CMake Project Commands](https://cmake.org/cmake/help/v3.11/manual/cmake-commands.7.html#project-commands)
 - C++Now 2017, Daniel Pfeifer [Effective CMake](https://www.youtube.com/watch?v=bsXLMQ6WgIk)
 - CppCon 2017, Mathieu Ropert [Using Modern CMake Patterns to Enforce a Good Modular Design](https://www.youtube.com/watch?v=eC9-iRN2b04)
